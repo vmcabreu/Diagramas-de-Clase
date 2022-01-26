@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2022-01-26T16:05:03.293Z" agent="5.0 (X11)" version="16.4.6" etag="UZB8fCjFou-0pQywbgwW" type="github"><diagram id="MwwP3v2i9g0i5PnzIbhQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-26T16:17:31.868Z" agent="5.0 (X11)" etag="HxiUscAl_a36g7pGZKXH" version="16.4.6" type="github">
+  <diagram id="MwwP3v2i9g0i5PnzIbhQ" name="Page-1">
+    <mxGraphModel dx="460" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9ic1y_ZYIn_0hsKV0eyH-1" value="Agencias" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="50" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ic1y_ZYIn_0hsKV0eyH-2" value="- sucursales: Sucursal" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9ic1y_ZYIn_0hsKV0eyH-1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9ic1y_ZYIn_0hsKV0eyH-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="9ic1y_ZYIn_0hsKV0eyH-1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="9ic1y_ZYIn_0hsKV0eyH-5" value="Sucursal" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="140" width="160" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="9ic1y_ZYIn_0hsKV0eyH-6" value="- codSucursal: String&#xa;- dirección: String&#xa;- telefono: String&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9ic1y_ZYIn_0hsKV0eyH-5">
+          <mxGeometry y="26" width="160" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="9ic1y_ZYIn_0hsKV0eyH-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="9ic1y_ZYIn_0hsKV0eyH-5">
+          <mxGeometry y="110" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="9ic1y_ZYIn_0hsKV0eyH-8" value="Vuelo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="150" width="160" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="9ic1y_ZYIn_0hsKV0eyH-9" value="- numVuelo: String&#xa;- fecha: date&#xa;- hora: Hora&#xa;- origen: String&#xa;- destino: String&#xa;- plazaTotal: int&#xa;- plazaTurista: int&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9ic1y_ZYIn_0hsKV0eyH-8">
+          <mxGeometry y="26" width="160" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="9ic1y_ZYIn_0hsKV0eyH-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="9ic1y_ZYIn_0hsKV0eyH-8">
+          <mxGeometry y="170" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="9ic1y_ZYIn_0hsKV0eyH-11" value="Turista" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="400" width="160" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="9ic1y_ZYIn_0hsKV0eyH-12" value="- codigo: String&#xa;- nombre: String&#xa;- apellidos: String&#xa;- dirección: String&#xa;- teléfono: String&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9ic1y_ZYIn_0hsKV0eyH-11">
+          <mxGeometry y="26" width="160" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="9ic1y_ZYIn_0hsKV0eyH-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="9ic1y_ZYIn_0hsKV0eyH-11">
+          <mxGeometry y="110" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="9ic1y_ZYIn_0hsKV0eyH-14" value="Hotel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="380" width="160" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="9ic1y_ZYIn_0hsKV0eyH-15" value="- codigo: String&#xa;- nombre: String&#xa;- direccion: String&#xa;- ciudad: String&#xa;- telefono: String&#xa;- plazaDisponible: int&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9ic1y_ZYIn_0hsKV0eyH-14">
+          <mxGeometry y="26" width="160" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="9ic1y_ZYIn_0hsKV0eyH-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="9ic1y_ZYIn_0hsKV0eyH-14">
+          <mxGeometry y="130" width="160" height="8" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
